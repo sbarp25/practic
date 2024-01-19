@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AnotherController {
     @GetMapping(path = "/home")
     public String home(){
-        return "this is from another new branch";
+        return "edited from web to master";
     }
 }
