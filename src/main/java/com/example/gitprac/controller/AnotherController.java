@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AnotherController {
     @GetMapping(path = "/home")
     public String home(){
-        return "fetch practice";
+        return "fetch practice ok dondegit";
     }
 }
