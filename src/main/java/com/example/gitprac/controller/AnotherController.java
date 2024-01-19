@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AnotherController {
     @GetMapping(path = "/home")
     public String home(){
-        return "edited from web to master";
+        return "fetch practice";
     }
 }
